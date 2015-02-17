@@ -144,7 +144,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 - tBodyGyroMean
 - tBodyGyroJerkMean
  
-Included in the tidy data set were only those variables that included mean or std as part of the name. Specifically, that included the following variables:
+Included in the tidy data set were only those variables that included mean or std as part of the name. The variables below are the full names, but in the tidy data set, all "-", "(", and ")" characters were replaced with "." to conform to R standards. In any case, the included variables are the following:
 
 - 1 tBodyAcc-mean()-X
 - 2 tBodyAcc-mean()-Y
