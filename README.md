@@ -10,8 +10,12 @@ In the next section, the replace function assigns more readable activity labels 
 
 Finally, the code creates a wide data set that represent the average of each column by groupings of activity and subject. That is, for each activity (6 activities) that subject 1 (out of 30 subjects) performed, the code calculates a mean for each variable (86). The output, meanTidySet, is a wide tidy set.
 
+
+
+
+
 _____________________________________________________________________________________________________________________________
-----Study Design, from the original data set's associated README (scroll down for the code book regarding this data set)----
+Study Design, from the original data set's associated README (scroll down for the code book regarding this data set)
 
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
@@ -79,8 +83,13 @@ This dataset is distributed AS-IS and no responsibility implied or explicit can 
 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
+
+
+
+
+
 _____________________________________________________________________________________________________________________________
-----Code Book, again adapted from the original information provided with the data set----
+Code Book, again adapted from the original information provided with the data set
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
